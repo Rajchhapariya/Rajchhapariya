@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @Rajchhapariya
-- 👀 I’m interested in Python, HTML, C, C++, Java.
-- 🌱 I’m currently learning Python.
-- 💞️ I’m looking to collaborate on a hardware project.
+- 👀 I’m interested in Python, HTML, CSS, Java.
+- 🌱 I’m currently learning Java.
+- 💞️ I’m looking to collaborate on a software development project.
 - 📫 DM me on insta @raj.chhapariya
 
 <!---
