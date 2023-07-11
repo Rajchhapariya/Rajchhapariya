@@ -2,7 +2,7 @@
 - 👀 I’m interested in Python, HTML, CSS, Java.
 - 🌱 I’m currently learning Java.
 - 💞️ I’m looking to collaborate on a software development project.
-- 📫 DM me on insta @raj.chhapariya
+- 📫 DM me on Telegram @raj_chhapariya.
 
 <!---
 Rajchhapariya/Rajchhapariya is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
