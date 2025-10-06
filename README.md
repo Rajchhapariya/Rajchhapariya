@@ -1,7 +1,12 @@
-- 👋 Hi, I’m @Rajchhapariya
-- 👀 I’m interested in Python, HTML, CSS, Java.
-- 🌱 I’m currently learning Java.
-- 💞️ I’m looking to collaborate on a software development project.
+# Hi, I'm Raj chhapariya 👋
+
+## 📊 Data Analyst | 🤖 ML Enthusiast
+
+I turn data into insights and build machine learning models to solve real-world problems. Proficient in Python, SQL, and data visualization tools like Matplotlib, Seaborn and Power BI. Currently exploring advanced ML techniques and deploying predictive models.
+
+**Tech Stack:** Python • SQL • Scikit-learn • Pandas • Seaborn • Power BI
+
+📫 Check out my projects below!
 
 <!---
 Rajchhapariya/Rajchhapariya is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
