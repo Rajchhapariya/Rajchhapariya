@@ -54,5 +54,5 @@ Technical blog covering the Type-Safe T3 Stack, AI coding agents, and small lang
 ### 📫 Let's connect
 
 - 📧 [rajchhapariya8@gmail.com](mailto:rajchhapariya8@gmail.com)
-- 🌐 [rajchhapariya.space](https://rajchhapariya.space)
+- 🌐 [Portfolio](https://rajchhapariya.space)
 - 🔥 [Linkedin](https://www.linkedin.com/in/rajchhapariya/)
