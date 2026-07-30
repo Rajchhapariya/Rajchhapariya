@@ -31,15 +31,20 @@ An AI-powered ATS resume optimizer built on Next.js, TypeScript, Supabase, and t
 
 ### 💼 Background
 
-Before going full-time into building products, I owned and operated an independent restaurant in Bengaluru — managing operations, budgeting, vendor relationships, and P&L, which shapes how I think about building for real business constraints, not just clean datasets.
+Before going full-time into building products, I owned and operated an independent restaurant in Varanasi — managing operations, budgeting, vendor relationships, and P&L, which shapes how I think about building for real business constraints, not just clean datasets.
 
 ### 🧰 Tech Stack
 
 **Languages:** Python · JavaScript · TypeScript · Java · Kotlin
+
 **Web & Mobile:** React · Node.js · HTML5 · CSS3 · Vercel · Android Studio
+
 **Data & ML:** Pandas · NumPy · Scikit-learn · XGBoost · SQL
+
 **Visualization:** Power BI · Matplotlib · Seaborn · Excel
+
 **Payments & APIs:** Razorpay · UPI AutoPay · WhatsApp API · Webhooks
+
 **Security & Infra:** PCI-DSS · AES-256 · Supabase · Git/GitHub
 
 ### ✍️ Writing
@@ -50,4 +55,4 @@ Technical blog covering the Type-Safe T3 Stack, AI coding agents, and small lang
 
 - 📧 [rajchhapariya8@gmail.com](mailto:rajchhapariya8@gmail.com)
 - 🌐 [rajchhapariya.space](https://rajchhapariya.space)
-- 🔥 [atsroast.com](https://atsroast.com)
+- 🔥 [Linkedin](https://www.linkedin.com/in/rajchhapariya/)
