@@ -10,6 +10,7 @@
   <a href="https://www.atsroast.com"><img src="https://img.shields.io/badge/Product-Resume%20Roaster-1F3864?style=flat-square" alt="Resume Roaster" /></a>
   <a href="mailto:rajchhapariya8@gmail.com"><img src="https://img.shields.io/badge/Email-rajchhapariya8%40gmail.com-1F3864?style=flat-square" alt="Email" /></a>
   <a href="https://www.linkedin.com/in/rajchhapariya/"><img src="https://img.shields.io/badge/LinkedIn-Raj%20Chhapariya-1F3864?style=flat-square" alt="LinkedIn" /></a>
+  <a href="https://x.com/raj_chhapariya"><img src="https://img.shields.io/badge/X-raj__chhapariya-1F3864?style=flat-square&logo=x" alt="X (Twitter)" /></a>
 </p>
 
 ---
@@ -71,5 +72,6 @@ I write in-depth engineering breakdowns on data architectures and LLM systems at
 
 - 🌐 **Portfolio & Case Studies:** [rajchhapariya.space](https://rajchhapariya.space)
 - 💼 **LinkedIn:** [linkedin.com/in/rajchhapariya](https://www.linkedin.com/in/rajchhapariya/)
+- 𝕏 **X (Twitter):** [x.com/raj_chhapariya](https://x.com/raj_chhapariya)
 - 🐙 **GitHub:** [github.com/Rajchhapariya](https://github.com/Rajchhapariya)
 - 📧 **Email:** [rajchhapariya8@gmail.com](mailto:rajchhapariya8@gmail.com)
