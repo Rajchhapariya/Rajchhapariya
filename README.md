@@ -34,6 +34,7 @@ An AI-powered ATS resume optimizer and career preparation studio built with Next
 | **[Jan Darshan](https://github.com/Rajchhapariya/JanDarshan)** | Independent civic and legislative intelligence platform tracking Indian MPs and ministers with automated scraping, data normalization, and interactive constituency mapping. Live at [jan-darshan.vercel.app](https://jan-darshan.vercel.app). | Next.js · TypeScript · MongoDB · Puppeteer · Upstash Redis |
 | **[GSTify](https://gstify-nine.vercel.app)** | GST-compliant invoicing web application for Indian freelancers with automated tax computation, PDF invoice generation, and serverless persistence. | Next.js · TypeScript · Drizzle ORM · Neon PostgreSQL · pdf-lib |
 | **[SubsSync](https://subs-sync.vercel.app)** | SaaS recurring-billing platform for Indian businesses featuring UPI AutoPay, automated dunning cycles, and transactional WhatsApp notifications. | Next.js · Razorpay · UPI AutoPay · WhatsApp API |
+| **[Aarohana Trails](https://aarohanatrails.com)** | High-concurrency trekking and adventure expedition booking platform featuring an atomic seat ledger, custom headless CMS, dynamic itineraries, and real-time operations audio alerts. Live at [aarohanatrails.com](https://aarohanatrails.com). | Next.js 16 · TypeScript · PostgreSQL · Prisma ORM · Tailwind CSS |
 | **Namma Metro Guide** | Android transit navigation guide for Bengaluru Namma Metro with route planning, fare estimation, and interchange mapping. | Java · Kotlin · Android Studio |
 
 ---
