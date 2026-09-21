@@ -9,7 +9,7 @@
   <a href="https://rajchhapariya.space"><img src="https://img.shields.io/badge/Portfolio-rajchhapariya.space-1F3864?style=flat-square" alt="Portfolio" /></a>
   <a href="https://www.atsroast.com"><img src="https://img.shields.io/badge/Product-Resume%20Roaster-1F3864?style=flat-square" alt="Resume Roaster" /></a>
   <a href="mailto:rajchhapariya8@gmail.com"><img src="https://img.shields.io/badge/Email-rajchhapariya8%40gmail.com-1F3864?style=flat-square" alt="Email" /></a>
-  <a href="https://www.linkedin.com/in/raj-chhapariya-63aa86201/"><img src="https://img.shields.io/badge/LinkedIn-Raj%20Chhapariya-1F3864?style=flat-square" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/rajchhapariya/"><img src="https://img.shields.io/badge/LinkedIn-Raj%20Chhapariya-1F3864?style=flat-square" alt="LinkedIn" /></a>
 </p>
 
 ---
@@ -70,6 +70,6 @@ I write in-depth engineering breakdowns on data architectures and LLM systems at
 ### 📫 Connect with Me
 
 - 🌐 **Portfolio & Case Studies:** [rajchhapariya.space](https://rajchhapariya.space)
-- 💼 **LinkedIn:** [linkedin.com/in/raj-chhapariya-63aa86201](https://www.linkedin.com/in/raj-chhapariya-63aa86201/)
+- 💼 **LinkedIn:** [linkedin.com/in/rajchhapariya](https://www.linkedin.com/in/rajchhapariya/)
 - 🐙 **GitHub:** [github.com/Rajchhapariya](https://github.com/Rajchhapariya)
 - 📧 **Email:** [rajchhapariya8@gmail.com](mailto:rajchhapariya8@gmail.com)
