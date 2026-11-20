@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Raj Chhapariya 👋</h1>
+<h1 align="center">Hi, I'm Raj Chhapariya</h1>
 <h3 align="center">AI / Data Engineer building reliable data and LLM systems</h3>
 
 <p align="center">
@@ -15,65 +15,55 @@
 
 ---
 
-### 🚀 What I'm Building
+### What I'm Building
 
 **[Resume Roaster](https://www.atsroast.com)** — Founder & Developer *(2026 – Present)*  
-An AI-powered ATS resume optimizer and career preparation studio built with Next.js, TypeScript, Supabase, and the OpenAI API. Features a free ATS scanner tested against major enterprise platforms (Workday, Greenhouse, Taleo, iCIMS, Lever), an automated bullet rewriter, a cover letter generator, an AI mock-interview simulator, and PDF export via `@react-pdf/renderer`. Shipped and live for paying users.
+AI-powered ATS resume optimizer and career studio built with Next.js, TypeScript, Supabase, the OpenAI API and Razorpay. Includes a free ATS scanner covering Workday, Greenhouse, Taleo, iCIMS and Lever, a bullet rewriter, a cover letter generator, an AI mock-interview simulator, and PDF/DOCX export. Live with a free tier and one-time paid plans.
 
 ---
 
-### 🛠️ Featured Projects & Systems
+### Featured Projects & Systems
 
 | Project | Description | Primary Stack |
 |---|---|---|
-| **[Agentic RAG Knowledge Assistant](https://github.com/Rajchhapariya/Agentic-RAG-Knowledge-Assistant)** | Autonomous RAG system with query decomposition, hybrid lexical/vector search (BM25 + NumPy RRF $k=60$), atomic claim evidence auditing, and 87 automated test cases (0% hallucination on unanswerables). | Python · OpenAI API · Rank-BM25 · Pydantic · Streamlit |
+| **[Truly](https://trulyapp.online)** | Small-group social platform built around structured 60-minute video circles. Overbooking is blocked by an atomic conditional UPDATE (`booked_count < capacity`) inside a transaction, side effects go through a transactional outbox with a cron drain, IDs are UUIDv7. Tested with Vitest and Playwright E2E. Live at [trulyapp.online](https://trulyapp.online). | Next.js 15 · React 19 · TypeScript · Neon PostgreSQL · Drizzle ORM · Vitest · Playwright |
+| **[Agentic RAG Knowledge Assistant](https://github.com/Rajchhapariya/Agentic-RAG-Knowledge-Assistant)** | Autonomous RAG system with query decomposition, hybrid lexical/vector search (BM25 + NumPy RRF $k=60$), atomic claim evidence auditing, and 90 automated test functions; refused 4/4 adversarial unanswerable questions (0 hallucinations) where naive hybrid RAG answered all 4. | Python · OpenAI API · Rank-BM25 · Pydantic · Streamlit |
 | **[Turbine AvgEGT Regression](https://github.com/Rajchhapariya/AvgEGT_Prediction_Project)** | Industrial turbine engine Exhaust Gas Temperature (AvgEGT) regression for predictive maintenance ($R^2 = 0.9136$, RMSE = 10.83°C) with strict data leakage elimination. | Python · XGBoost · Scikit-learn · Pandas · Telemetry Analytics |
 | **[Customer Churn & Retention Modeling](https://github.com/Rajchhapariya/Customer-Churn-Prediction)** | End-to-end subscriber churn risk modeling on 7,043 customer accounts using SMOTE and Random Forest (ROC-AUC: 0.823) with standalone CLI inference. | Python · Scikit-learn · Imbalanced-Learn · Random Forest · Seaborn |
-| **[AI Data Analyst Agent](https://github.com/Rajchhapariya/AI-Data-Analyst-Agent)** | Autonomous tabular analytics agent with in-process DuckDB columnar OLAP, AST-based read-only SQL validation (33 disallowed keywords), and numerical faithfulness verification. | Python · DuckDB · Plotly · Streamlit · Pandas |
-| **[Erasmus Mundus Scholarship Tracker](https://github.com/Rajchhapariya/erasmus-tracker)** | Autonomous monitoring agent tracking European scholarship deadlines (EMAI, EDISS, DEAI) with resilient DOM scraping, state caching, and automated Telegram dispatch. | Python · BeautifulSoup · Telegram Bot API · Docker · Automation |
-| **[Jan Darshan](https://github.com/Rajchhapariya/JanDarshan)** | Independent civic and legislative intelligence platform tracking Indian MPs and ministers with automated scraping, data normalization, and interactive constituency mapping. Live at [jan-darshan.vercel.app](https://jan-darshan.vercel.app). | Next.js · TypeScript · MongoDB · Puppeteer · Upstash Redis |
-| **[GSTify](https://gstify-nine.vercel.app)** | GST-compliant invoicing web application for Indian freelancers with automated tax computation, PDF invoice generation, and serverless persistence. | Next.js · TypeScript · Drizzle ORM · Neon PostgreSQL · pdf-lib |
-| **[SubsSync](https://subs-sync.vercel.app)** | SaaS recurring-billing platform for Indian businesses featuring UPI AutoPay, automated dunning cycles, and transactional WhatsApp notifications. | Next.js · Razorpay · UPI AutoPay · WhatsApp API |
-| **[Aarohana Trails](https://aarohanatrails.com)** | High-concurrency trekking and adventure expedition booking platform featuring an atomic seat ledger, custom headless CMS, dynamic itineraries, and real-time operations audio alerts. Live at [aarohanatrails.com](https://aarohanatrails.com). | Next.js 16 · TypeScript · PostgreSQL · Prisma ORM · Tailwind CSS |
+| **[AI Data Analyst Agent](https://github.com/Rajchhapariya/AI-Data-Analyst-Agent)** | Autonomous tabular analytics agent with in-process DuckDB columnar OLAP, regex-based read-only SQL guard (35 blocked keywords), and numerical faithfulness verification. | Python · DuckDB · Plotly · Streamlit · Pandas |
+| **[EdgeFed-Bench](https://github.com/Rajchhapariya/edgefed-bench)** | Benchmark testing whether INT8 quantization of client updates weakens Byzantine-robust aggregation (Multi-Krum, coordinate median, trimmed mean) under sign-flip, Gaussian, ALIE and IPM attacks. INT8 cuts uplink 75%; at 20% sign-flip Multi-Krum holds 85.03% (INT8) vs 85.01% (Float32) over 10 seeds with Holm-corrected paired tests. Client shards stored as Parquet, read via DuckDB. | Python · PyTorch · DuckDB · PyArrow · NumPy |
+| **[taxi-stream-bench](https://github.com/Rajchhapariya/taxi-stream-bench)** | Streaming sink benchmark on NYC Yellow Taxi data: at-least-once vs offset-keyed effectively-once delivery into a Parquet lake, hard-killed 10 times per run on a live 6-partition Redpanda cluster. Effectively-once wrote 0 duplicate rows; at-least-once averaged up to 667 per run. Parquet compaction (806 files to 1) made queries 9.3x faster. | Python · Redpanda (Kafka API) · DuckDB · Parquet · Docker |
+| **[tf-misconfig-scanner](https://github.com/Rajchhapariya/tf-misconfig-scanner)** | Static Terraform scanner for 12 AWS misconfiguration rules using `python-hcl2` AST parsing and variable resolution; emits UNKNOWN instead of guessing on dynamic expressions. Head-to-head vs Checkov 3.4.0 on 106 labelled items (fixtures + TerraGoat): F1 1.000 vs 0.878. | Python · python-hcl2 · Terraform · AWS · pytest |
+| **[JanDarshan](https://github.com/Rajchhapariya/JanDarshan)** | Independent political and legislative information platform covering Indian MPs and ministers, with data sync and cleaning scripts, an India state map, and Hindi/English i18n. Live at [jan-darshan.vercel.app](https://jan-darshan.vercel.app). | Next.js · TypeScript · MongoDB · Mongoose · react-simple-maps · d3-geo |
+| **[VyaparStack](https://vyaparstack-nine.vercel.app)** | GST invoicing app for Indian freelancers: Section 31 invoices with automatic CGST/SGST/IGST split, UPI QR codes, and PDF generation. | Next.js · TypeScript · Drizzle ORM · Neon PostgreSQL · pdf-lib |
+| **[MandateStack](https://subs-sync.vercel.app)** | Recurring-billing platform for Indian businesses: Razorpay subscription mandates over UPI AutoPay, webhook handling, cron payment reminders, and WhatsApp notifications via Twilio. | Next.js · TypeScript · Supabase · Razorpay · Twilio · pdf-lib |
+| **[Aarohana Trails](https://aarohanatrails.com)** | Freelance build for a trekking company: departure booking with an atomic conditional seat increment, a TipTap-based admin CMS, trek itineraries with Leaflet maps, and Sentry monitoring. | Next.js 16 · TypeScript · PostgreSQL · Prisma ORM · Tailwind CSS |
 | **Namma Metro Guide** | Android transit navigation guide for Bengaluru Namma Metro with route planning, fare estimation, and interchange mapping. | Java · Kotlin · Android Studio |
 
 ---
 
-### 💼 Background & Operating Principles
+### Background & Operating Principles
 
-- **Deterministic Guardrails First**: I prioritize architectural guardrails (read-only SQL AST filtering, strict Pydantic validation schemas, and post-generation citation checking) rather than relying on unconstrained LLM code execution.
-- **Measurable & Evaluated**: All AI and retrieval systems are rigorously benchmarked against baseline implementations with automated test suites and metric evaluation (faithfulness, precision, and latency).
-- **Real-World Business Grounding**: Before focusing full-time on software and data systems, I owned and operated an independent restaurant in Varanasi — managing daily operations, vendor contracts, cash flow, and P&L. This operational background directly informs how I build software: grounded in real business constraints, strict unit economics, and operational reliability.
-
----
-
-### 🧰 Technical Skills
-
-- **Data & AI Core:** Python · SQL · DuckDB · Pandas · NumPy · Scikit-learn · XGBoost
-- **AI & LLM Systems:** Retrieval-Augmented Generation (RAG) · OpenAI API · BM25 · Pydantic · Prompt & Output Evaluation
-- **Databases & Storage:** PostgreSQL · Supabase · MongoDB · Redis · REST APIs · Firebase
-- **Supporting Full-Stack:** TypeScript · JavaScript · Next.js · React · Node.js · Streamlit · Tailwind CSS
-- **Tools & Analytics:** Git · GitHub · Plotly · Power BI · Matplotlib · Seaborn
-- **Mobile & Platforms:** Java · Kotlin · Android Studio · Vercel
+- **Deterministic Guardrails First**: I prioritize architectural guardrails (read-only SQL keyword filtering, Pydantic validation, and post-generation evidence checks) over unconstrained LLM output.
+- **Measured, Not Assumed**: My AI and data projects ship with automated tests and reported metrics, compared against a baseline where one exists.
+- **Real-World Business Grounding**: Before going full-time on software, I ran my own restaurant in Varanasi (2025). I build with real business constraints and costs in mind.
 
 ---
 
-### ✍️ Technical Writing & Research
+### Technical Skills
 
-I write in-depth engineering breakdowns on data architectures and LLM systems at **[rajchhapariya.space/blog](https://rajchhapariya.space/blog)**:
-
-- **[Hybrid Retrieval Systems in Production](https://rajchhapariya.space/blog/hybrid-retrieval-bm25-dense-embeddings-rrf)**: Combining BM25, Dense Embeddings, and Reciprocal Rank Fusion (RRF).
-- **[Deterministic Guardrails for SQL-Generating LLM Agents](https://rajchhapariya.space/blog/deterministic-guardrails-sql-pydantic-llm-agents)**: From Natural Language to Verified AST Execution.
-- **[In-Process Columnar OLAP with DuckDB Architecture](https://rajchhapariya.space/blog/in-process-columnar-olap-duckdb-architecture)**: Replacing Heavyweight Data Warehouses for Analytical Microservices.
-- **[Evaluating Hallucination & Citation Faithfulness in RAG](https://rajchhapariya.space/blog/evaluating-hallucination-citation-faithfulness-rag)**: Methodologies for Context Grounding and Atomic Claim Recall.
-- **[Next.js App Router Architecture](https://rajchhapariya.space/blog/nextjs-16-app-router-server-components-ssr)**: Server Components, Streaming SSR, and Static Site Generation.
+- **Languages:** Python · TypeScript · SQL
+- **Data & ML:** Pandas · NumPy · scikit-learn · XGBoost · PyTorch · DuckDB
+- **LLM Systems:** OpenAI API · RAG (BM25 + dense retrieval) · Pydantic
+- **Web & Databases:** Next.js · React · PostgreSQL (Neon, Supabase) · MongoDB · Drizzle · Prisma
+- **Testing & Infra:** pytest · Vitest · Playwright · Docker · Kafka API (Redpanda) · Git
 
 ---
 
-### 📫 Connect with Me
+### Connect with Me
 
-- 🌐 **Portfolio & Case Studies:** [rajchhapariya.space](https://rajchhapariya.space)
-- 💼 **LinkedIn:** [linkedin.com/in/rajchhapariya](https://www.linkedin.com/in/rajchhapariya/)
-- 𝕏 **X:** [x.com/raj_chhapariya](https://x.com/raj_chhapariya)
-- 🐙 **GitHub:** [github.com/Rajchhapariya](https://github.com/Rajchhapariya)
-- 📧 **Email:** [rajchhapariya8@gmail.com](mailto:rajchhapariya8@gmail.com)
+- **Portfolio & Case Studies:** [rajchhapariya.space](https://rajchhapariya.space)
+- **LinkedIn:** [linkedin.com/in/rajchhapariya](https://www.linkedin.com/in/rajchhapariya/)
+- **X:** [x.com/raj_chhapariya](https://x.com/raj_chhapariya)
+- **GitHub:** [github.com/Rajchhapariya](https://github.com/Rajchhapariya)
+- **Email:** [rajchhapariya8@gmail.com](mailto:rajchhapariya8@gmail.com)
